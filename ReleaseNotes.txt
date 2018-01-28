@@ -1,0 +1,10 @@
+Release notes 1.0.1
+
+- now wallet is still working when daemon stores blockchain and can't serve clients;
+- no-console option for a daemon;
+- fixed problem with network synchronization;
+- major bug fix in simple wallet.
+
+Release notes 1.0.0
+
+Flarecoin project is moved to GitHub

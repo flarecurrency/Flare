@@ -1,0 +1,49 @@
+# Flare
+
+Copyright (c) 2017-2018 The Flare Project.   
+Portions Copyright (c) 2012-2013 The Cryptonote developers.
+
+
+## Development resources
+
+- Web: [flarecurrency.io](https://flarecurrency.io)
+- GitHub: [https://github.com/flarecurrency](https://github.com/flarecurrency)
+
+
+## Introduction
+
+A digital solution related to money transactions. Flare coin is digital cash that you can use to make private payment to anyone you like whenever and wherever you are in the world. By using Flarecoin, your commerce business, personal payments or your retail store can use the money transaction with speed and privacy. You are your bank, you control your funds, and nobody can trace your transfers unless you allow them to do so.
+
+
+## About this project
+
+This is the core implementation of Flare. It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of Flare that uses the protocol and network in a compatible manner.
+
+As with many development projects, the repository on Github is considered to be the "staging" area for the latest changes. Before changes are merged into that branch on the main repository, they are tested by individual developers in their own branches, submitted as a pull request, and then subsequently tested by contributors who focus on testing and code reviews. That having been said, the repository should be carefully considered before using it in a production environment, unless there is a patch in the repository for a particular show-stopping issue you are experiencing. It is generally a better idea to use a tagged release for stability.
+
+
+### Dependencies
+
+The following table summarizes the tools and libraries required to build. A
+few of the libraries are also included in this repository (marked as
+"Vendored"). By default, the build uses the library installed on the system,
+and ignores the vendored sources. However, if no library is found installed on
+the system, then the vendored source will be built and used. The vendored
+sources are also used for statically-linked builds because distribution
+packages often include only shared library binaries (`.so`) but not static
+library archives (`.a`).
+
+| Dep          | Min. version  | Vendored | Debian/Ubuntu pkg  | Optional |
+| ------------ | ------------- | -------- | ------------------ | -------- | 
+| GCC          | 4.7.3         | NO       | `build-essential`  | NO       |
+| CMake        | 3.0.0         | NO       | `cmake`            | NO       |
+| Python       | any           | NO       | `python-dev`       | NO       |
+| Boost        | 1.58 & >      | NO       | `libboost-all-dev` | NO       |
+| GCC          | 4.9           | NO       | `gcc-4.9`          | NO       |
+| G++          | 4.9           | NO       | `g++-4.9`          | NO       |
+| Git          | any           | NO       | `git`              | NO       |
+| Rocksdb      | any           | NO       | `librocksdb-dev`   | NO       |
+
+
+
+
